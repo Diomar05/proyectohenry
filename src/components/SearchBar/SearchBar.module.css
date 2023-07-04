@@ -1,0 +1,30 @@
+
+.searchContainer{
+  display: block;
+  justify-content: space-around;
+ width: 50%; 
+}
+
+.Input{
+  border-radius: 15px;
+  width: 70%;
+  margin: 5px;
+  padding: 5px;
+}
+
+.Button{
+  width: 20%;
+  border-radius: 5px;
+  background-color: rgb(34, 223, 34);
+  color: white;
+  border: 10px;
+  margin: 7px;
+  padding: 7px;
+}
+
+.Button:hover{
+  transition: (0,5s);
+  background-color: rgb(50, 146, 211);
+  cursor: pointer;
+}
+

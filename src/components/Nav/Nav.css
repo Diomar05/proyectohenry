@@ -1,0 +1,43 @@
+  /* .title{
+     width: 80%;
+    margin: 1em 1em 1em 1em;
+    color: rgba(12, 241, 4, 0.852);
+    font-size: 25px;
+    border-radius: 25px;
+    text-shadow: 4px 2px 3px rgb(50, 146, 211);
+    font-family: 'get_schwifty';
+  } */
+
+  .Container{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: rgb(50, 146, 211) solid 1px;
+    margin: 1em 0em 1em 0em;
+    height: 4em;
+    border-radius: 2em;
+  }
+
+  .containerBoton{
+    width: 50%;
+
+  }
+
+  .Boton {
+    width: 65px;
+    border-radius: 5px;
+  background-color: rgb(34, 223, 34);
+  color: white;
+  border: 10px;
+  margin: 10px;
+  padding: 7px;
+  }
+
+  .Boton:hover{
+    transition: (0,5s);
+    background-color: rgb(50, 146, 211);
+    cursor: pointer;
+  }
+
+  

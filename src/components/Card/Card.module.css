@@ -1,0 +1,71 @@
+.container{
+  display: grid;
+  grid-template: 40px 150px 158px / 180px;
+  grid-template-areas:"header" 
+                      "imagen"
+                      "texto";
+  border: rgb(50, 146, 211) solid 2px;
+  border-radius: 32px;
+  gap: 5px;
+}
+
+.containerImagen{
+  grid-area: imagen;
+  display: block;
+  justify-self: center;
+}
+
+.containerBoton{
+  grid-area: header;
+  display: block;
+  justify-self: right; 
+}
+
+.blockText{
+  grid-area: texto; 
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; 
+  background-color: white;
+  border-radius: 20px;
+}
+
+.imagen{
+  border-radius: 5000px;
+  width: 140px;
+  height: 140px;
+}
+
+.button{
+  position: right;
+  margin: 10px;
+  height: 30px;
+  width: 30px;
+  border-radius: 20px;
+  background-color: rgb(34, 223, 34);
+}
+
+.button:hover{
+  background-color:red;
+  cursor:pointer;
+  color:white;
+  }
+
+.texto{
+  color: rgb(54, 46, 46);
+  text-align: center;
+  font-size: 16px;
+  margin: 2% 5% 5% 5%;
+  cursor: pointer;
+}
+
+.texto:hover{
+  border: rgb(50, 146, 211) solid 1px;
+  border-radius: 13px;
+  text-shadow: 2px 1px 1px rgb(50, 146, 211);
+}
+
+@font-face {
+  font-family: 'get_schwifty';
+  src: url("../../../assets/fonts/get_schwifty.ttf");
+  font-style: normal;
+  font-weight: 10px;
+}
